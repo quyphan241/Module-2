@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c855e0a-1491-4f7f-8ce5-728bd469e2c1" name="Default Changelist" comment="" />
+    <list default="true" id="8c855e0a-1491-4f7f-8ce5-728bd469e2c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/src/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/src/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Thuc hanh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mang va phuong thuc/Mang va phuong thuc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/src/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Bai tap/src/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Thuc hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Thuc hanh/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +27,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1S2S3AKhzhZ4YVSsQSv8DYyybzs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -106,11 +119,23 @@
       <workItem from="1570767093469" duration="2647000" />
       <workItem from="1570775612998" duration="7095000" />
       <workItem from="1570977568836" duration="793000" />
+      <workItem from="1571151839347" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
