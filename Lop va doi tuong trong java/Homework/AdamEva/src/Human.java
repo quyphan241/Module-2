@@ -33,8 +33,10 @@ public class Human {
     }
 
     public void eat(Apple apple) {
-        apple.decrease();
-        this.weight++;
+        if (!apple.isEmpty()){
+            apple.decrease();
+            this.weight++;
+        }
     }
 
     public void say(String str) {
@@ -43,9 +45,8 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human{" +
+        return this.name + "{" +
                 "gender='" + gender + '\'' +
-                ", name='" + name + '\'' +
                 ", weight=" + weight +
                 '}';
     }
