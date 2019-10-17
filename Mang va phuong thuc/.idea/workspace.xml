@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45580bba-7c0a-4b96-baf0-3459b92814bc" name="Default Changelist" comment="" />
+    <list default="true" id="45580bba-7c0a-4b96-baf0-3459b92814bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/out/production/AdamEva/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/out/production/AdamEva/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/out/production/AdamEva/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/out/production/AdamEva/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/out/production/AdamEva/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/out/production/AdamEva/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/src/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/src/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/src/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lop va doi tuong trong java/Homework/AdamEva/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +26,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1S9bJxPsga8xXAsQ0kC5WfXcC17" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,37 +58,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayExample">
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayExample" />
+  <component name="RunManager" selected="Application.DemSoLanXuatHienCuaKyTuTrongChuoi">
+    <configuration name="CountingStudentPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountingStudentPass" />
       <module name="Mang va phuong thuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoNguocPhanTuCuaMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DaoNguocPhanTuCuaMang" />
+    <configuration name="DemSoLanXuatHienCuaKyTuTrongChuoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemSoLanXuatHienCuaKyTuTrongChuoi" />
       <module name="Mang va phuong thuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThemPhanTuVaoMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThemPhanTuVaoMang" />
+    <configuration name="IllegalTriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IllegalTriangleException" />
       <module name="Mang va phuong thuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimGiaTriLonNhatMang2Chieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimGiaTriLonNhatMang2Chieu" />
+    <configuration name="TinhTongCacSoOMotCotXacDinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TinhTongCacSoOMotCotXacDinh" />
       <module name="Mang va phuong thuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimGiaTriNhoNhatTrongMangDungPhuongThuc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimGiaTriNhoNhatTrongMangDungPhuongThuc" />
+    <configuration name="TinhTongMaTranDuongCheoChinhMaTranVuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TinhTongMaTranDuongCheoChinhMaTranVuong" />
       <module name="Mang va phuong thuc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayExample" />
-        <item itemvalue="Application.TimGiaTriLonNhatMang2Chieu" />
-        <item itemvalue="Application.ThemPhanTuVaoMang" />
-        <item itemvalue="Application.DaoNguocPhanTuCuaMang" />
-        <item itemvalue="Application.TimGiaTriNhoNhatTrongMangDungPhuongThuc" />
+        <item itemvalue="Application.DemSoLanXuatHienCuaKyTuTrongChuoi" />
+        <item itemvalue="Application.CountingStudentPass" />
+        <item itemvalue="Application.TinhTongCacSoOMotCotXacDinh" />
+        <item itemvalue="Application.TinhTongMaTranDuongCheoChinhMaTranVuong" />
+        <item itemvalue="Application.IllegalTriangleException" />
       </list>
     </recent_temporary>
   </component>
@@ -102,10 +116,29 @@
       <updated>1570978690588</updated>
       <workItem from="1570978694152" duration="2583000" />
       <workItem from="1571059830888" duration="7033000" />
+      <workItem from="1571201022124" duration="864000" />
+      <workItem from="1571207883792" duration="308000" />
+      <workItem from="1571208266879" duration="7224000" />
+      <workItem from="1571237322130" duration="3394000" />
+      <workItem from="1571274409311" duration="42000" />
+      <workItem from="1571295148910" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

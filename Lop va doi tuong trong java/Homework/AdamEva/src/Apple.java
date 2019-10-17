@@ -10,10 +10,7 @@ public class Apple {
     }
 
     public void decrease() {
-        if(isEmpty()){
-            System.out.println("The apple is empty");
-        }
-        else{
+        if(!isEmpty()){
         this.weight -=1;
         }
     }

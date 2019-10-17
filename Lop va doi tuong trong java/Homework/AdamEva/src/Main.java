@@ -4,6 +4,8 @@ public class Main {
         System.out.println(apple);
         Human adam = new Human("male", "Adam", 65);
         Human eva = new Human("female","Eva",50);
+        System.out.println(adam);
+        System.out.println(eva);
         adam.say("Hello");
         eva.say("Hi");
         adam.eat(apple);

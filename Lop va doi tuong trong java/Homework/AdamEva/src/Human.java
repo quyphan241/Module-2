@@ -37,13 +37,13 @@ public class Human {
             apple.decrease();
             this.weight++;
         }
+        else System.out.println("The apple is empty");
     }
 
     public void say(String str) {
         System.out.println(this.name + ": "+str);
     }
 
-    @Override
     public String toString() {
         return this.name + "{" +
                 "gender='" + gender + '\'' +
