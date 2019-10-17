@@ -1,5 +1,5 @@
 public class Rectangle {
-    double width, height;
+    private double width, height;
 
     public double getWidth() {
         return width;
@@ -24,6 +24,10 @@ public class Rectangle {
 
     public double getArea(){
         return this.width*this.height;
+    }
+
+    public double getPerimeter() {
+        return (this.height+this.width)*2;
     }
 
     public String toString() {

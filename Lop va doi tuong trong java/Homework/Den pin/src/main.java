@@ -4,6 +4,7 @@ public class main {
         ElectricLamp lamp2 = new ElectricLamp("Lamp2");
         SwitchButton switchButton = new SwitchButton();
         switchButton.connectToLamp(lamp1);
+        switchButton.connectToLamp(lamp2);
         switchButton.switchOn();
         System.out.println(switchButton);
         System.out.println(lamp1);

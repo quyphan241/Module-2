@@ -1,5 +1,5 @@
 public class Square {
-    double side;
+    private double side;
 
     public double getSide() {
         return side;
@@ -15,6 +15,10 @@ public class Square {
 
     public double getArea(){
         return Math.pow(this.side,2);
+    }
+
+    public double getPerimeter() {
+        return this.side*4;
     }
 
     public String toString() {

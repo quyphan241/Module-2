@@ -1,22 +1,22 @@
 public class Apple {
-    private int weight;
+    private int amount;
 
-    public int getWeight() {
-        return weight;
+    public int getAmount() {
+        return amount;
     }
 
     public Apple() {
-        this.weight = 10;
+        this.amount = 10;
     }
 
     public void decrease() {
         if(!isEmpty()){
-        this.weight -=1;
+        this.amount -=1;
         }
     }
 
     public boolean isEmpty() {
-        if (this.weight == 0){
+        if (this.amount == 0){
             return true;
         }
         else return false;
@@ -24,7 +24,7 @@ public class Apple {
 
     public String toString() {
         return "Apple{" +
-                "weight=" + weight +
+                "weight=" + amount +
                 '}';
     }
 }
