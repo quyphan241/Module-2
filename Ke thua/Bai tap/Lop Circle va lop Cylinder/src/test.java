@@ -5,6 +5,7 @@ public class test {
 
         Cylinder cylinder = new Cylinder(3,"blue",6);
         System.out.println(cylinder);
+        System.out.println(cylinder.getVolume());
     }
 
 }

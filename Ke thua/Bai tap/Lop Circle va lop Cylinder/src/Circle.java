@@ -23,10 +23,6 @@ public class Circle {
         this.color = color;
     }
 
-    public double getArea(){
-        return Math.PI*Math.pow(this.radius,2);
-    }
-
     @Override
     public String toString() {
         return "Circle{" +
@@ -34,4 +30,8 @@ public class Circle {
                 ", color='" + color + '\'' +
                 '}';
     }
+    public double getArea(){
+        return Math.PI*Math.pow(this.radius,2);
+    }
+
 }
