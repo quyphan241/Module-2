@@ -1,6 +1,6 @@
 public class test {
     public static void main(String[] args) {
-        Triangle triangle = new Triangle(5,4,7);
+        Triangle triangle = new Triangle(3,4,5);
         System.out.println(triangle);
     }
 }
