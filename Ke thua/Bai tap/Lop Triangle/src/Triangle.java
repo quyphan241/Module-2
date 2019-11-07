@@ -1,5 +1,5 @@
-public class Triangle {
-    double side1, side2, side3;
+public class Triangle extends Shape {
+    private double side1, side2, side3;
     public Triangle(){
         this.side1 = 1;
         this.side2 = 1;
@@ -63,6 +63,8 @@ public class Triangle {
                     ", side3=" + side3 +
                     ", Perimeter: " + getPerimeter() +
                     ", Area: " + getArea() +
+                    ", color: " + getColor() +
+                    ", filled: " + getFilled() +
                     '}';
         }
     }

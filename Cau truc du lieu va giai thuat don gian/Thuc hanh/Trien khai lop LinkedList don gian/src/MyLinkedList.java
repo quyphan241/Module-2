@@ -54,4 +54,16 @@ public class MyLinkedList {
             temp = temp.next;
         }
     }
+
+    public void remove(int index) {
+        Node previous = head;
+        Node current;
+        for(int i=1; i < index; i++) {
+            previous = previous.next;
+        }
+        current =previous.next;
+        previous.next = current.next;
+        numNodes--;
+    }
+
 }

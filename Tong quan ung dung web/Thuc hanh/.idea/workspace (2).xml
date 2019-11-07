@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Thuc hanh:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db1344f1-6a78-47f1-b65e-5bba80209dbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Cau truc du lieu va giai thuat don gian/Bai tap/TomcatTest/TomcatTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clean code &amp; Refactoring/Clean code &amp; Refactoring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advanced Object Oriented Design/Bai tap/Colorable/out/production/He cac doi tuong hinh hoc/ColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Advanced Object Oriented Design/Bai tap/Colorable/out/production/He cac doi tuong hinh hoc/ColorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advanced Object Oriented Design/Bai tap/Colorable/src/ColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Advanced Object Oriented Design/Bai tap/Colorable/src/ColorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cau truc du lieu va giai thuat don gian/Thuc hanh/Trien khai lop LinkedList don gian/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Cau truc du lieu va giai thuat don gian/Thuc hanh/Trien khai lop LinkedList don gian/src/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ke thua/Bai tap/Lop Triangle/src/test.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\Codegym\Module-2\Tong quan ung dung web\Thuc hanh\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1SznTei8Q1IOq8afXYz2G6meOeF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Thuc hanh:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Thuc_hanh_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_47_server_time" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52309" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Thuc hanh:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db1344f1-6a78-47f1-b65e-5bba80209dbc" name="Default Changelist" comment="" />
+      <created>1572575300761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572575300761</updated>
+      <workItem from="1572575305639" duration="3612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

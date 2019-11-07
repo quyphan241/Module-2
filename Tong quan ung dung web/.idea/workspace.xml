@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5360d5c8-85b4-4597-85a1-c7de1a8b40b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cau truc du lieu va giai thuat don gian/Bai tap/TomcatTest/TomcatTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clean code &amp; Refactoring/Clean code &amp; Refactoring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Object Oriented Design/Bai tap/Colorable/out/production/He cac doi tuong hinh hoc/ColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced Object Oriented Design/Bai tap/Colorable/out/production/He cac doi tuong hinh hoc/ColorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Object Oriented Design/Bai tap/Colorable/src/ColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced Object Oriented Design/Bai tap/Colorable/src/ColorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cau truc du lieu va giai thuat don gian/Thuc hanh/Trien khai lop LinkedList don gian/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cau truc du lieu va giai thuat don gian/Thuc hanh/Trien khai lop LinkedList don gian/src/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/out/production/Lop Circle va lop Cylinder/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Circle va lop Cylinder/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/out/production/Lop Triangle/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ke thua/Bai tap/Lop Triangle/src/test.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1T0MXrmjD2yZlRuPOVATOMlI7sy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5360d5c8-85b4-4597-85a1-c7de1a8b40b0" name="Default Changelist" comment="" />
+      <created>1572592602066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572592602066</updated>
+      <workItem from="1572592603813" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

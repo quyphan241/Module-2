@@ -1,6 +1,6 @@
 public class Shape {
-    String color;
-    boolean filled;
+    private String color;
+    private boolean filled;
     public Shape(){
         this.color = "green";
         this.filled = true;

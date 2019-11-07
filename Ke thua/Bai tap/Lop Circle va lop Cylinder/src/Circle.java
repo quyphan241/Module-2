@@ -1,8 +1,9 @@
-public class Circle {
+public class Circle extends Geometric {
     double radius;
     String color;
 
-    public Circle(double radius, String color) {
+    public Circle(double radius, String color, String name) {
+        super(name);
         this.radius = radius;
         this.color = color;
     }
@@ -30,8 +31,16 @@ public class Circle {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    @Override
+    public double getPerimeter() {
+        return this.radius*2*Math.PI;
+    }
+
+    @Override
     public double getArea(){
         return Math.PI*Math.pow(this.radius,2);
     }
+
 
 }
