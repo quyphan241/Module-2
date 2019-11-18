@@ -1,0 +1,56 @@
+body{
+    background-color:white;
+}
+div.login{
+    width: 100%;
+}
+.login-main {
+    background-color:whitesmoke;
+    margin: 0px auto;
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+#login{
+    padding-top: 50%;
+}
+.login{
+    padding: 16px;
+    color: darkslategray;
+}
+.login__row{
+    height: 50px;
+    margin: auto;
+}
+.login__cell_left{
+    display: table-cell;
+    width: 20%;
+    text-align: right;
+    float: left;
+}
+.login__cell_right input{
+    margin-left: 5px;
+    float: left;
+    height: 36px;
+    width: 70%;
+    text-align: left;
+}
+.image{
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+
+.show{
+    margin-top: 4%;
+}
+
+
+.main-menu {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
