@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d88ce252-f933-48a9-83b6-82433a61168e" name="Default Changelist" comment="" />
+    <list default="true" id="d88ce252-f933-48a9-83b6-82433a61168e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/.idea/libraries/mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/.idea/artifacts/web_product_mvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/.idea/artifacts/web_product_mvc_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/artifacts/web_product_mvc_war_exploded/WEB-INF/classes/com/codegym/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/artifacts/web_product_mvc_war_exploded/WEB-INF/classes/com/codegym/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/artifacts/web_product_mvc_war_exploded/WEB-INF/classes/com/codegym/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/artifacts/web_product_mvc_war_exploded/WEB-INF/classes/com/codegym/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/artifacts/web_product_mvc_war_exploded/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/artifacts/web_product_mvc_war_exploded/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/production/web-product-mvc/com/codegym/controller/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/production/web-product-mvc/com/codegym/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/out/production/web-product-mvc/com/codegym/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/src/com/codegym/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/src/com/codegym/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/src/com/codegym/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/src/com/codegym/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/web-product-mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/web-product-mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Model/web-product-mvc/web/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MVC Model/web-product-mvc/web/product/list.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +24,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -42,10 +59,22 @@
       <option name="presentableId" value="Default" />
       <updated>1570978629099</updated>
       <workItem from="1570978635375" duration="55000" />
+      <workItem from="1573521334804" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
