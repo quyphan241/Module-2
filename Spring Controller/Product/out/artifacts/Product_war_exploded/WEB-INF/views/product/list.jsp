@@ -26,6 +26,8 @@
             <td>${product.getId()}</td>
             <td><a href="/view?id=${product.getId()}"> ${product.getName()}</a></td>
             <td>${product.getPrice()}</td>
+            <td><a href="/edit?id=${product.getId()}"> Edit</a></td>
+
         </tr>
     </c:forEach>
 </table>

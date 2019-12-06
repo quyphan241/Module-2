@@ -9,10 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class SandwichController {
     @RequestMapping("/save")
-    public String save(@RequestParam("condiment") String[] condiment, Model model){
-        String check = "on";
-        model.addAttribute("condiment", condiment);
-        model.addAttribute("check", check);
+    public String save(@RequestParam("condiment") String[] condiments, Model model){
+        model.addAttribute("condiments", condiments);
         return "save";
     }
 }

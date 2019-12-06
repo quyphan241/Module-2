@@ -14,21 +14,23 @@
     </head>
     <body>
     <h1>Sandwich Condiments</h1>
-    <c:if test = "${condiment[0].equals(check)}">
-        Lectuce
-    </c:if>
+<%--    <c:if test = "${condiments[0]!=null}">--%>
+<%--        ${condiments[0]}--%>
+<%--    </c:if>--%>
 
-     <c:if test = "${condiment[1].equals(check)}">
-         Tomato
-     </c:if>
+<%--     <c:if test = "${condiments[1]!=null}">--%>
+<%--         ${condiments[1]}--%>
+<%--     </c:if>--%>
 
-     <c:if test = "${condiment[2].equals(check)}">
-         Mustard
-     </c:if>
+<%--     <c:if test = "${condiments[2]!=null}">--%>
+<%--         ${condiments[2]}--%>
+<%--     </c:if>--%>
 
-    <c:if test = "${condiment[3].equals(check)}">
-         Sprouts
-    </c:if>
-
+<%--    <c:if test = "${condiments[3]!=null}">--%>
+<%--         ${condiments[3]}--%>
+<%--    </c:if><br>--%>
+    <c:forEach var="condiment" items="${condiments}">
+        <h3><c:out value = "${condiment}" /></h3><br>
+    </c:forEach>
     </body>
     </html>

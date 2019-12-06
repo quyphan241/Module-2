@@ -9,9 +9,9 @@
 <h1>Choose condinments</h1>
 
 <form method=get action="save">
-  <input type="checkbox" name="condiment" > Letuce<br>
-  <input type="checkbox" name="condiment" > Tomato<br>
-  <input type="checkbox" name="condiment"  checked> Mustard<br><br>
-  <input type="checkbox" name="condiment" checked> Sprouts<br><br>
+  <input type="checkbox" name="condiment" value="Lectuce" > Letuce<br>
+  <input type="checkbox" name="condiment" value="Tomato" > Tomato<br>
+  <input type="checkbox" name="condiment" value="Mustard" checked> Mustard<br><br>
+  <input type="checkbox" name="condiment" value="Sprouts" checked> Sprouts<br><br>
   <input type="submit" value="Save">
 </form>

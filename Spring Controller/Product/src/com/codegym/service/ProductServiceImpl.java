@@ -27,7 +27,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public void edit(Product product) { this.productRepository.save(product);
+    public void update(int id, Product product) { this.productRepository.save(product);
 
     }
 }

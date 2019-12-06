@@ -10,5 +10,5 @@ public interface ProductService {
     Product findById(int id);
 
     void save(Product product);
-    void edit(Product product);
+    void update(int  id, Product product);
 }

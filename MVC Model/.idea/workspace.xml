@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d55630d6-62f4-4209-9d6d-5481c2bf9b03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring Controller/UngDungKiemTraEmailHopLe_Gradle/.idea/modules/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring Controller/UngDungKiemTraEmailHopLe_Gradle/.idea/modules/untitled.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudyCoffee/CoffeeManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudyCoffee/CoffeeManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/repository/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/repository/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/classes/com/codegym/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/views/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/artifacts/Product_war_exploded/WEB-INF/views/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/repository/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/repository/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/Product/out/production/Product/com/codegym/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/artifacts/ProductManagement_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/libraries/org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/libraries/org_apache_taglibs_taglibs_standard_spec_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/ProductManagement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/lib/spring-websocket-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/classes/Controllers/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/classes/Model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/classes/Service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/classes/Service/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/views/products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/views/productslist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/artifacts/ProductManagement_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/production/ProductManagement/Controllers/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/production/ProductManagement/Model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/production/ProductManagement/Service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/out/production/ProductManagement/Service/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/src/Controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/src/Model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/src/Service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/src/Service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/web/WEB-INF/views/products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/web/WEB-INF/views/productslist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/ProductManagement/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/artifacts/UngDungHienThiGiaVi_war_exploded/WEB-INF/classes/controller/SandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/artifacts/UngDungHienThiGiaVi_war_exploded/WEB-INF/classes/controller/SandwichController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/artifacts/UngDungHienThiGiaVi_war_exploded/WEB-INF/views/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/artifacts/UngDungHienThiGiaVi_war_exploded/WEB-INF/views/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/artifacts/UngDungHienThiGiaVi_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/artifacts/UngDungHienThiGiaVi_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/production/UngDungHienThiGiaVi/controller/SandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/out/production/UngDungHienThiGiaVi/controller/SandwichController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/src/controller/SandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/src/controller/SandwichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/web/WEB-INF/views/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/web/WEB-INF/views/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Controller/UngDungHienThiGiaVi/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1U8eqnrLlVL2Ics17lfvUp9G3Fq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d55630d6-62f4-4209-9d6d-5481c2bf9b03" name="Default Changelist" comment="" />
+      <created>1574742842993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574742842993</updated>
+      <workItem from="1574742844598" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
