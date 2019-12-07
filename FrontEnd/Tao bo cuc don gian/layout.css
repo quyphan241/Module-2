@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+  }
+  
+  .logo {
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 200px;
+    width: 30%;
+    float: left;
+  }
+  .banner {
+    background-color: #584c4c;
+    text-align: center;
+    height: 200px;
+    width: 70%;
+    float: left;
+  }
+  .nav {
+    width: 70%;
+    float: left;
+  }
+  .search {
+    width:30%;
+    float: left;
+  }
+  .footer {
+    background-color: rgb(185, 110, 17);
+    text-align: center;
+    height: 80px;
+    clear: both;
+  }
+
+  .vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    clear: both;
+  }
