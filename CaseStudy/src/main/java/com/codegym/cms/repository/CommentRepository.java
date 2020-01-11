@@ -7,6 +7,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface CommentRepository extends PagingAndSortingRepository<Comment, Long> {
-    Page<Comment> findAllByPost(Post post, Pageable pageable);
+    Page<Comment> findAllByPostOrderByIdDesc(Post post, Pageable pageable);
 
 }

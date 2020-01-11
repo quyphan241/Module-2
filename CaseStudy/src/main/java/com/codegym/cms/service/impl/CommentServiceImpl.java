@@ -16,7 +16,7 @@ public class CommentServiceImpl implements CommentService {
 
     @Override
     public Page<Comment> findAllByPost(Post post, Pageable pageable) {
-        return commentRepository.findAllByPost(post, pageable);
+        return commentRepository.findAllByPostOrderByIdDesc(post, pageable);
     }
 
     @Override

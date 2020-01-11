@@ -30,7 +30,7 @@ public class PostController {
         Iterable<Category> categories = categoryService.findAll();
         Page<Post> top4posts = postService.findTop4LatestPost(pageable);
         Category technology = categoryService.findById((long) 1);
-        Page<Post> technologyPosts = postService.findAllByCategory(technology,pageable);
+        Iterable<Post> technologyPosts = postService.findTop3ByCategory(technology);
         ModelAndView modelAndView = new ModelAndView("/post/index");
         modelAndView.addObject("categories", categories);
         modelAndView.addObject("top4posts", top4posts);

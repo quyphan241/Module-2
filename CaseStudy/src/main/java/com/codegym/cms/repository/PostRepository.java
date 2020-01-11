@@ -18,4 +18,5 @@ public interface PostRepository extends PagingAndSortingRepository<Post, Long> {
 //    Iterable<Post> findTop3();
 
     Page<Post> findTop4ByOrderByIdDesc(Pageable pageable);
+    Iterable<Post> findTop3ByCategoryOrderByIdDesc(Category category);
  }

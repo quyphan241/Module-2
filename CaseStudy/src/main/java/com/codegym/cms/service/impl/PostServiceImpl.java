@@ -50,6 +50,11 @@ public class PostServiceImpl implements PostService {
         return postRepository.findTop4ByOrderByIdDesc(pageable);
     }
 
+    @Override
+    public Iterable<Post> findTop3ByCategory(Category category) {
+        return postRepository.findTop3ByCategoryOrderByIdDesc(category);
+    }
+
 //    @Override
 //    public List<Post> findTop4LastestPost() {
 //        return postRepository.findTop4();
