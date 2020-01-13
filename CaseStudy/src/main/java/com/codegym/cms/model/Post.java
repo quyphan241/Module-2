@@ -1,6 +1,7 @@
 package com.codegym.cms.model;
 
 import javax.persistence.*;
+import java.sql.Date;
 import java.util.Set;
 
 @Entity
@@ -11,6 +12,7 @@ public class Post {
     private Long id;
     private String title;
     private String content;
+    private Date createDay;
     @OneToMany(targetEntity = Image.class)
     private Set<Image> images;
 
@@ -92,6 +94,14 @@ public class Post {
 
     public void setCount(int count) {
         this.count = count;
+    }
+
+    public Date getCreateDay() {
+        return createDay;
+    }
+
+    public void setCreateDay(Date createDay) {
+        this.createDay = createDay;
     }
 
     @Override

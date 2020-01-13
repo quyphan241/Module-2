@@ -24,4 +24,7 @@ public interface PostService {
     Page<Post> findTop4LatestPost(Pageable pageable);
 
     Iterable<Post> findTop3ByCategory(Category category);
+
+    Iterable<Post> findTop2ByCategory(Category category);
+
 }
