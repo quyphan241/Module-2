@@ -11,6 +11,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -44,6 +45,16 @@ public class PostController {
         return modelAndView;
     }
 
+    @GetMapping("/view-post/{id}")
+    public ModelAndView viewPost(@PathVariable("id") Long id) {
+        Post post = postService.findById(id);
+        if(post==null){
+            return new ModelAndView("/error.404");
+        }
+        ModelAndView modelAndView= new ModelAndView("/post/single");
+        modelAndView.addObject("post", post);
+        return modelAndView;
+    }
     @GetMapping("/create-post")
     public ModelAndView showCreateForm(){
         ModelAndView modelAndView = new ModelAndView("/post/create");

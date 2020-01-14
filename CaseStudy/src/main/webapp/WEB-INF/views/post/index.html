@@ -98,7 +98,7 @@
                                 <ul class="main_nav_list d-flex flex-row align-items-center justify-content-start">
                                     <li><a th:href="@{/}">home</a></li>
                                     <th:block th:each="category : ${categories}">
-                                        <li><a th:href="@{#}" th:text="${category.name}"></a></li>
+                                        <li><a th:href="@{/view-category/__${category.id}__}" th:text="${category.name}"></a></li>
                                     </th:block>
                                 </ul>
                             </nav>
@@ -147,12 +147,10 @@
         </div>
         <nav class="menu_nav">
             <ul class="menu_mm">
-                <li class="menu_mm"><a href="index.html">Home</a></li>
-                <li class="menu_mm"><a href="courses.html">Tech</a></li>
-                <li class="menu_mm"><a href="instructors.html">Innovation</a></li>
-                <li class="menu_mm"><a href="#">Videos</a></li>
-                <li class="menu_mm"><a href="blog.html">World</a></li>
-                <li class="menu_mm"><a href="contact.html">Contact</a></li>
+                <li><a th:href="@{/}">home</a></li>
+                <th:block th:each="category : ${categories}">
+                    <li><a th:href="@{#}" th:text="${category.name}"></a></li>
+                </th:block>
             </ul>
         </nav>
         <div class="menu_subscribe"><a href="#">Subscribe</a></div>
@@ -403,11 +401,13 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <div class="post_content">
-                                                    <div class="post_category cat_technology"><a href="category.html"
-                                                                                                 th:text="${post.category.name}"></a>
+                                                    <div class="post_category cat_technology">
+                                                        <a href="category.html" th:text="${post.category.name}"></a>
                                                     </div>
-                                                    <div class="post_title"><a href="single.html"
-                                                                               th:text="${post.title}"></a></div>
+                                                    <div class="post_title">
+<!--                                                        <a href="single.html" th:text="${post.title}"></a>-->
+                                                        <a th:href="@{/view-post/__${post.id}__}" th:text="${post.title}"></a>
+                                                    </div>
                                                     <div class="post_info d-flex flex-row align-items-center justify-content-start">
                                                         <div class="post_author d-flex flex-row align-items-center justify-content-start">
                                                             <div>
@@ -670,12 +670,10 @@
                         <div class="footer_nav_container text-center">
                             <nav class="footer_nav">
                                 <ul class="footer_nav_list d-flex flex-md-row flex-column align-items-center justify-content-start">
-                                    <li><a href="index.html">home</a></li>
-                                    <li><a href="#">tech</a></li>
-                                    <li><a href="#">innovation</a></li>
-                                    <li><a href="#">videos</a></li>
-                                    <li><a href="#">world</a></li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a th:href="@{/}">home</a></li>
+                                    <th:block th:each="category : ${categories}">
+                                        <li><a th:href="@{#}" th:text="${category.name}"></a></li>
+                                    </th:block>
                                 </ul>
                             </nav>
                         </div>

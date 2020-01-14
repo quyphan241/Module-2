@@ -13,6 +13,7 @@ public class Post {
     private String title;
     private String content;
     private Date createDay;
+    private String description;
     @OneToMany(targetEntity = Image.class)
     private Set<Image> images;
 
@@ -102,6 +103,14 @@ public class Post {
 
     public void setCreateDay(Date createDay) {
         this.createDay = createDay;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     @Override
