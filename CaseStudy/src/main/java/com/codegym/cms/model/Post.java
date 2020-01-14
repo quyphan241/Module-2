@@ -113,6 +113,10 @@ public class Post {
         this.description = description;
     }
 
+    public int increment() {
+        return this.count++;
+    }
+
     @Override
     public String toString() {
         return "Post{" +

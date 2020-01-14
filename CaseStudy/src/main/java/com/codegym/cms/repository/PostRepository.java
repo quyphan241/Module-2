@@ -9,6 +9,7 @@ import org.springframework.data.domain.Slice;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
+import java.util.Iterator;
 import java.util.List;
 
 public interface PostRepository extends PagingAndSortingRepository<Post, Long> {
@@ -18,4 +19,5 @@ public interface PostRepository extends PagingAndSortingRepository<Post, Long> {
     Page<Post> findTop4ByOrderByIdDesc(Pageable pageable);
     Iterable<Post> findTop3ByCategoryOrderByIdDesc(Category category);
     Iterable<Post> findTop2ByCategoryOrderByIdDesc(Category category);
+    Iterable<Post> findTop3ByOrderByCountDesc();
 }

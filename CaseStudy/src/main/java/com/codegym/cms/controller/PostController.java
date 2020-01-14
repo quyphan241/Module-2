@@ -9,10 +9,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.sql.Date;
@@ -33,6 +30,7 @@ public class PostController {
     public ModelAndView index(Pageable pageable){
         Iterable<Category> categories = categoryService.findAll();
         Page<Post> top4posts = postService.findTop4LatestPost(pageable);
+        Iterable<Post> top3View = postService.findTop3MostView();
         Category technology = categoryService.findById((long) 1);
         Category world = categoryService.findById((long) 2);
         Iterable<Post> technologyPosts = postService.findTop3ByCategory(technology);
@@ -42,15 +40,18 @@ public class PostController {
         modelAndView.addObject("top4posts", top4posts);
         modelAndView.addObject("technologyPosts",technologyPosts);
         modelAndView.addObject("worldPosts", worldPosts);
+        modelAndView.addObject("top3View", top3View);
         return modelAndView;
     }
 
     @GetMapping("/view-post/{id}")
-    public ModelAndView viewPost(@PathVariable("id") Long id) {
+    public ModelAndView viewPost(@PathVariable("id") Long id ) {
         Post post = postService.findById(id);
         if(post==null){
             return new ModelAndView("/error.404");
         }
+        post.increment();
+        postService.save(post);
         ModelAndView modelAndView= new ModelAndView("/post/single");
         modelAndView.addObject("post", post);
         return modelAndView;

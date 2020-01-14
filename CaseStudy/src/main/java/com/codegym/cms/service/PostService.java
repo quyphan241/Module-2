@@ -27,4 +27,6 @@ public interface PostService {
 
     Iterable<Post> findTop2ByCategory(Category category);
 
+    Iterable<Post> findTop3MostView();
+
 }

@@ -59,4 +59,9 @@ public class PostServiceImpl implements PostService {
     public Iterable<Post> findTop2ByCategory(Category category) {
         return postRepository.findTop2ByCategoryOrderByIdDesc(category);
     }
+
+    @Override
+    public Iterable<Post> findTop3MostView() {
+        return postRepository.findTop3ByOrderByCountDesc();
+    }
 }
