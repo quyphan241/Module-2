@@ -173,54 +173,23 @@
         <!-- Home Slider -->
         <div class="home_slider_container">
             <div class="owl-carousel owl-theme home_slider">
+
                 <!-- Slide -->
+                <th:block th:each="post: ${top3View}">
                 <div class="owl-item home_slider_item">
                     <div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
                     <div class="home_slider_content text-center">
                         <div class="home_slider_content_inner" data-animation-in="fadeIn"
                              data-animation-out="animate-out fadeOut">
-                            <div class="home_category"><a href="category.html">technology</a></div>
-                            <div class="home_title">Building the Future</div>
-                            <div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non
-                                risus mollis consectetur
+                            <div class="home_category"><a th:text="${post.category.name}"></a></div>
+                            <div class="home_title" th:text="${post.title}"></div>
+                            <div class="home_text" th:text="${post.description}">
                             </div>
-                            <div class="home_button trans_200"><a href="#">read more</a></div>
+                            <div class="home_button trans_200"><a th:href="@{/view-post/__${post.id}__}">read more</a></div>
                         </div>
                     </div>
                 </div>
-                <!-- Slide -->
-                <div class="owl-item home_slider_item">
-                    <div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
-                    <div class="home_slider_content text-center">
-                        <div class="home_slider_content_inner" data-animation-in="fadeIn"
-                             data-animation-out="animate-out fadeOut">
-                            <div class="home_category"><a href="category.html">technology</a></div>
-                            <div class="home_title">Building the Future</div>
-                            <div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non
-                                risus mollis consectetur
-                            </div>
-                            <div class="home_button trans_200"><a href="#">read more</a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide -->
-                <div class="owl-item home_slider_item">
-                    <div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
-                    <div class="home_slider_content text-center">
-                        <div class="home_slider_content_inner" data-animation-in="fadeIn"
-                             data-animation-out="animate-out fadeOut">
-                            <div class="home_category"><a href="category.html">technology</a></div>
-                            <div class="home_title">Building the Future</div>
-                            <div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non
-                                risus mollis consectetur
-                            </div>
-                            <div class="home_button trans_200"><a href="#">read more</a></div>
-                        </div>
-                    </div>
-                </div>
+                </th:block>
             </div>
 
             <!-- Home Slider Navigation -->
@@ -241,7 +210,7 @@
                 <div class="col-md-4 intro_col">
                     <div class="intro_item">
                         <img src="images/intro_1.jpg" alt="">
-                        <div class="intro_content trans_200"><a href="category.html">technology</a></div>
+                        <div class="intro_content trans_200"><a href="#">technology</a></div>
                     </div>
                 </div>
 
@@ -249,7 +218,7 @@
                 <div class="col-md-4 intro_col">
                     <div class="intro_item">
                         <img src="images/intro_2.jpg" alt="">
-                        <div class="intro_content trans_200"><a href="category.html">videos</a></div>
+                        <div class="intro_content trans_200"><a href="#">videos</a></div>
                     </div>
                 </div>
 
@@ -257,7 +226,7 @@
                 <div class="col-md-4 intro_col">
                     <div class="intro_item">
                         <img src="images/intro_3.jpg" alt="">
-                        <div class="intro_content trans_200"><a href="category.html">featured</a></div>
+                        <div class="intro_content trans_200"><a href="#">featured</a></div>
                     </div>
                 </div>
 
@@ -405,7 +374,6 @@
                                                         <a href="category.html" th:text="${post.category.name}"></a>
                                                     </div>
                                                     <div class="post_title">
-<!--                                                        <a href="single.html" th:text="${post.title}"></a>-->
                                                         <a th:href="@{/view-post/__${post.id}__}" th:text="${post.title}"></a>
                                                     </div>
                                                     <div class="post_info d-flex flex-row align-items-center justify-content-start">
@@ -422,7 +390,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="post_text">
-                                                        <p th:text="${post.content}"></p>
+                                                        <p th:text="${post.description}"></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -451,8 +419,11 @@
                                                         </div>
                                                         <div class="post_content">
                                                             <div class="post_category cat_technology">
-                                                                <a href="category.html" th:text="${post.category.name}"></a></div>
-                                                            <div class="post_title"><a href="single.html" th:text="${post.title}"></a></div>
+                                                                <a th:href="@{/view-category/__${post.category.id}__}"
+                                                                   th:text="${post.category.name}"></a></div>
+                                                            <div class="post_title"><a th:href="@{/view-post/__${post.id}__}"
+                                                                                       th:text="${post.title}"></a>
+                                                            </div>
                                                             <div class="post_info d-flex flex-row align-items-center justify-content-start">
                                                                 <div class="post_author d-flex flex-row align-items-center justify-content-start">
                                                                     <div>
@@ -468,7 +439,7 @@
                                                                     comments</a></div>
                                                             </div>
                                                             <div class="post_text">
-                                                                <p th:text="${post.content}"></p>
+                                                                <p th:text="${post.description}"></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -535,7 +506,7 @@
                                             <div class="post_category_small cat_technology"><a href="category.html"
                                                                                                th:text="${post.category.name}"></a>
                                             </div>
-                                            <div class="latest_post_title"><a href="single.html"
+                                            <div class="latest_post_title"><a th:href="@{/view-post/__${post.id}__}"
                                                                               th:text="${post.title}"></a></div>
                                             <div class="latest_post_date" th:text="${post.createDay}"></div>
                                         </div>
@@ -552,10 +523,10 @@
                             <div class="most_viewed_items">
 
                                 <!-- Most Viewed Item -->
-                                <th:block th:each="post: ${top3View}">
+                                <th:block th:each="post, state: ${top3View}">
                                 <div class="most_viewed_item d-flex flex-row align-items-start justify-content-start" >
                                     <div>
-                                        <div class="most_viewed_num">01.</div>
+                                        <div class="most_viewed_num" th:text="'0'+${state.index + 1}+ ." ></div>
                                     </div>
                                     <div class="most_viewed_content">
                                         <div class="post_category_small cat_video"><a th:href="@{/view-category/__${post.category.id}__}"

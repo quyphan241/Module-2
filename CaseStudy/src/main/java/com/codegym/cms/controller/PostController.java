@@ -1,8 +1,10 @@
 package com.codegym.cms.controller;
 
 import com.codegym.cms.model.Category;
+import com.codegym.cms.model.Comment;
 import com.codegym.cms.model.Post;
 import com.codegym.cms.service.CategoryService;
+import com.codegym.cms.service.CommentService;
 import com.codegym.cms.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -21,6 +23,8 @@ public class PostController {
     CategoryService categoryService;
     @Autowired
     PostService postService;
+    @Autowired
+    CommentService commentService;
     @ModelAttribute("categories")
     public Iterable<Category> categories(){
         return categoryService.findAll();
@@ -45,8 +49,9 @@ public class PostController {
     }
 
     @GetMapping("/view-post/{id}")
-    public ModelAndView viewPost(@PathVariable("id") Long id ) {
+    public ModelAndView viewPost(@PathVariable("id") Long id, Pageable pageable ) {
         Post post = postService.findById(id);
+        Iterable<Comment> comments = commentService.findAllByPost(post, pageable);
         if(post==null){
             return new ModelAndView("/error.404");
         }
@@ -54,6 +59,7 @@ public class PostController {
         postService.save(post);
         ModelAndView modelAndView= new ModelAndView("/post/single");
         modelAndView.addObject("post", post);
+        modelAndView.addObject("comments",comments);
         return modelAndView;
     }
     @GetMapping("/create-post")
