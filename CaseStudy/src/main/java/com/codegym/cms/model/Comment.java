@@ -9,6 +9,8 @@ public class Comment {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String content;
+    private String commentatorName;
+    private String commentatorEmail;
 
     public String getContent() {
         return content;
@@ -51,5 +53,21 @@ public class Comment {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public String getCommentatorName() {
+        return commentatorName;
+    }
+
+    public void setCommentatorName(String commentatorName) {
+        this.commentatorName = commentatorName;
+    }
+
+    public String getCommentatorEmail() {
+        return commentatorEmail;
+    }
+
+    public void setCommentatorEmail(String commentatorEmail) {
+        this.commentatorEmail = commentatorEmail;
     }
 }
