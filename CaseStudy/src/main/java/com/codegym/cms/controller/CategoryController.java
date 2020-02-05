@@ -96,9 +96,11 @@ public class CategoryController {
             return new ModelAndView("/error.404");
         }
         Iterable<Post> posts = postService.findAllByCategory(category, pageable);
+        Iterable<Category> categories = categoryService.findAll();
         ModelAndView modelAndView = new ModelAndView("/category/category");
         modelAndView.addObject("category", category);
         modelAndView.addObject("posts", posts);
+        modelAndView.addObject("categories", categories);
         return modelAndView;
     }
 }

@@ -123,7 +123,7 @@ public class ApplicationConfig implements ApplicationContextAware, WebMvcConfigu
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/magazine");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/magazine?useUnicode=true&characterEncoding=UTF-8");
         dataSource.setUsername( "root" );
         dataSource.setPassword( "baoquy123" );
         return dataSource;
@@ -140,8 +140,12 @@ public class ApplicationConfig implements ApplicationContextAware, WebMvcConfigu
         Properties properties = new Properties();
         properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+        properties.setProperty("hibernate.connection.useUnicode","true");
+        properties.setProperty("hibernate.connection.characterEncoding","UTF-8");
+        properties.setProperty("hibernate.connection.charSet","UTF-8");
         return properties;
     }
+
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

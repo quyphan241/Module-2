@@ -14,10 +14,12 @@ import java.util.List;
 
 public interface PostRepository extends PagingAndSortingRepository<Post, Long> {
     Page<Post> findAll();
+    Page<Post> findAllByOrderByIdDesc(Pageable pageable);
     Page<Post> findAllByCategoryOrderByIdDesc(Category category, Pageable pageable);
     Page<Post> findAllByTitleContaining(String search, Pageable pageable);
     Page<Post> findTop4ByOrderByIdDesc(Pageable pageable);
     Iterable<Post> findTop3ByCategoryOrderByIdDesc(Category category);
     Iterable<Post> findTop2ByCategoryOrderByIdDesc(Category category);
     Iterable<Post> findTop3ByOrderByCountDesc();
+    Post findFirstByCategoryOrderById(Category category);
 }

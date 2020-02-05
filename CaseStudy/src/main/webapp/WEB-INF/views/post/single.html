@@ -85,16 +85,7 @@
                             </div>
 
                             <!-- Navigation -->
-                            <nav class="main_nav">
-                                <ul class="main_nav_list d-flex flex-row align-items-center justify-content-start">
-                                    <li><a href="index.html">home</a></li>
-                                    <li><a href="#">tech</a></li>
-                                    <li><a href="#">innovation</a></li>
-                                    <li><a href="#">videos</a></li>
-                                    <li><a href="#">world</a></li>
-                                    <li><a href="contact.html">contact</a></li>
-                                </ul>
-                            </nav>
+                            <div th:insert="~{/post/index::navigation}"></div>
 
                             <!-- Search -->
                             <div class="header_search_container ml-auto">
@@ -195,7 +186,7 @@
                                     <div class="post_author_name"><a href="#">Michael Smith</a></div>
                                 </div>
                                 <div class="post_date"><a href="#" th:text="${post.createDay}"></a></div>
-                                <div class="post_comments_num ml-auto"><a href="#">3 comments</a></div>
+                                <div class="post_comments_num ml-auto"><a href="#" th:text="${numberOfComments}+' comments'"></a></div>
                             </div>
                             <div class="post_text">
                                 <p th:utext="${post.content}"></p>
@@ -217,7 +208,7 @@
 
                         <!-- Comments -->
                         <div class="post_comments_container">
-                            <div class="post_comments_title">2 Comments</div>
+                            <div class="post_comments_title" th:text="${numberOfComments}+' comments'"></div>
 
                             <!-- Comments -->
                             <div class="post_comments">
@@ -272,52 +263,15 @@
                     <div class="sidebar">
 
                         <!-- Latest Posts -->
-                        <div class="sidebar_latest">
+                        <div class="sidebar_latest" >
                             <div class="sidebar_title">Latest Posts</div>
-                            <div class="latest_posts">
+                            <div th:replace="~{/post/index::latestpost}"></div>
 
-                                <!-- Latest Post -->
-                                <div class="latest_post d-flex flex-row align-items-start justify-content-start">
-                                    <div><div class="latest_post_image"><img src="/images/latest_1.jpg" alt="https://unsplash.com/@anniespratt"></div></div>
-                                    <div class="latest_post_content">
-                                        <div class="post_category_small cat_video"><a href="category.html">video</a></div>
-                                        <div class="latest_post_title"><a href="single.html">New tech development</a></div>
-                                        <div class="latest_post_date">March 12, 2018</div>
-                                    </div>
-                                </div>
 
-                                <!-- Latest Post -->
-                                <div class="latest_post d-flex flex-row align-items-start justify-content-start">
-                                    <div><div class="latest_post_image"><img src="/images/latest_2.jpg" alt="https://unsplash.com/@agkdesign"></div></div>
-                                    <div class="latest_post_content">
-                                        <div class="post_category_small cat_world"><a href="category.html">world</a></div>
-                                        <div class="latest_post_title"><a href="single.html">New tech development</a></div>
-                                        <div class="latest_post_date">March 12, 2018</div>
-                                    </div>
-                                </div>
 
-                                <!-- Latest Post -->
-                                <div class="latest_post d-flex flex-row align-items-start justify-content-start">
-                                    <div><div class="latest_post_image"><img src="/images/latest_3.jpg" alt="https://unsplash.com/@mfgonz"></div></div>
-                                    <div class="latest_post_content">
-                                        <div class="post_category_small cat_technology"><a href="category.html">tech</a></div>
-                                        <div class="latest_post_title"><a href="single.html">New tech development</a></div>
-                                        <div class="latest_post_date">March 12, 2018</div>
-                                    </div>
-                                </div>
-
-                                <!-- Latest Post -->
-                                <div class="latest_post d-flex flex-row align-items-start justify-content-start">
-                                    <div><div class="latest_post_image"><img src="/images/latest_4.jpg" alt="https://unsplash.com/@juja_han"></div></div>
-                                    <div class="latest_post_content">
-                                        <div class="post_category_small cat_technology"><a href="category.html">tech</a></div>
-                                        <div class="latest_post_title"><a href="single.html">New tech development</a></div>
-                                        <div class="latest_post_date">March 12, 2018</div>
-                                    </div>
-                                </div>
-
-                            </div>
                         </div>
+                    </div>
+
 
                         <!-- Most Viewed -->
 
@@ -411,15 +365,7 @@
                             </a>
                         </div>
                         <div class="footer_nav_container text-center">
-                            <nav class="footer_nav">
-                                <ul class="footer_nav_list d-flex flex-md-row flex-column align-items-center justify-content-start">
-                                    <li><a href="index.html">home</a></li>
-                                    <li><a href="#">tech</a></li>
-                                    <li><a href="#">innovation</a></li>
-                                    <li><a href="#">videos</a></li>
-                                    <li><a href="#">world</a></li>
-                                    <li><a href="contact.html">contact</a></li>
-                                </ul>
+                            <nav class="footer_nav" th:insert="~{/post/index::footer_nav}">
                             </nav>
                         </div>
                         <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

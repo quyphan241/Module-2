@@ -94,7 +94,7 @@
                             </div>
 
                             <!-- Navigation -->
-                            <nav class="main_nav">
+                            <nav class="main_nav" th:fragment="navigation">
                                 <ul class="main_nav_list d-flex flex-row align-items-center justify-content-start">
                                     <li><a th:href="@{/}">home</a></li>
                                     <th:block th:each="category : ${categories}">
@@ -275,9 +275,10 @@
                                                                      alt="https://unsplash.com/@cgower"></div>
                                         <div class="post_content">
                                             <div class="post_category cat_technology"><a
-                                                    href="category.html">technology</a></div>
-                                            <div class="post_title"><a href="single.html">The new Apple release
-                                                ceremony</a></div>
+                                                    href="category.html" th:href="@{/view-category/__${gamePosts.get(0).category.id}__}"
+                                                    th:text="${gamePosts.get(0).category.name}"></a></div>
+                                            <div class="post_title"><a th:href="@{/view-post/__${gamePosts.get(0).id}__}" th:text="${gamePosts.get(0).title}">
+                                                </a></div>
                                             <div class="post_info d-flex flex-row align-items-center justify-content-start">
                                                 <div class="post_author d-flex flex-row align-items-center justify-content-start">
                                                     <div>
@@ -286,15 +287,11 @@
                                                     </div>
                                                     <div class="post_author_name"><a href="#">Michael Smith</a></div>
                                                 </div>
-                                                <div class="post_date"><a href="#">29 April 2018</a></div>
+                                                <div class="post_date"><a href="#" th:text="${gamePosts.get(0).createDay}"></a></div>
                                                 <div class="post_comments ml-auto"><a href="#">3 comments</a></div>
                                             </div>
                                             <div class="post_text">
-                                                <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet
-                                                    tempor cursus. Nullam vestibulum convallis risus vel condimentum.
-                                                    Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.
-                                                    Nullam vestibulum convallis risus vel condimentum. Nullam auctor
-                                                    lorem in libero.</p>
+                                                <p th:text="${gamePosts.get(0).description}"></p>
                                             </div>
                                         </div>
                                     </div>
@@ -306,8 +303,9 @@
                                         <div class="post_image"><img src="images/post_2.jpg"
                                                                      alt="https://unsplash.com/@lloydaleveque"></div>
                                         <div class="post_content">
-                                            <div class="post_category cat_world"><a href="category.html">world</a></div>
-                                            <div class="post_title"><a href="single.html">The devices of the future</a>
+                                            <div class="post_category cat_world"><a th:href="@{/view-category/__${gamePosts.get(1).category.id}__}"
+                                                                                    th:text="${gamePosts.get(1).category.name}"></a></div>
+                                            <div class="post_title"><a th:href="@{/view-post/__${gamePosts.get(1).id}__}" th:text="${gamePosts.get(1).title}"></a>
                                             </div>
                                             <div class="post_info d-flex flex-row align-items-center justify-content-start">
                                                 <div class="post_author d-flex flex-row align-items-center justify-content-start">
@@ -317,7 +315,7 @@
                                                     </div>
                                                     <div class="post_author_name"><a href="#">Michael Smith</a></div>
                                                 </div>
-                                                <div class="post_date"><a href="#">29 April 2018</a></div>
+                                                <div class="post_date"><a href="#" th:text="${gamePosts.get(1).createDay}"></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -327,8 +325,9 @@
                                         <div class="post_image"><img src="images/post_3.jpg"
                                                                      alt="https://unsplash.com/@agkdesign"></div>
                                         <div class="post_content">
-                                            <div class="post_category cat_world"><a href="category.html">world</a></div>
-                                            <div class="post_title"><a href="single.html">The devices of the future</a>
+                                            <div class="post_category cat_world"><a th:href="@{/view-category/__${gamePosts.get(2).category.id}__}"
+                                                                                    th:text="${gamePosts.get(2).category.name}"></a></div>
+                                            <div class="post_title"><a th:href="@{/view-post/__${gamePosts.get(2).id}__}" th:text="${gamePosts.get(2).title}"></a>
                                             </div>
                                             <div class="post_info d-flex flex-row align-items-center justify-content-start">
                                                 <div class="post_author d-flex flex-row align-items-center justify-content-start">
@@ -338,7 +337,7 @@
                                                     </div>
                                                     <div class="post_author_name"><a href="#">Michael Smith</a></div>
                                                 </div>
-                                                <div class="post_date"><a href="#">29 April 2018</a></div>
+                                                <div class="post_date"><a href="#" th:text="${gamePosts.get(2).createDay}"></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -386,7 +385,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="post_date"><a href="#" th:text="${post.createDay}"></a></div>
-                                                        <div class="post_comments ml-auto"><a href="#">3 comments</a>
+                                                        <div class="post_comments ml-auto"><a href="#"  >See more</a>
                                                         </div>
                                                     </div>
                                                     <div class="post_text">
@@ -491,14 +490,14 @@
                         </div>
 
                         <!-- Latest Posts -->
-                        <div class="sidebar_latest">
+                        <div class="sidebar_latest" >
                             <div class="sidebar_title">Latest Posts</div>
-                            <div class="latest_posts">
+                            <div class="latest_posts"  th:fragment="latestpost">
                                 <!-- Latest Post -->
-                                <th:block th:each="post : ${top4posts}">
+                                <th:block th:each="post : ${top4posts}" >
                                     <div class="latest_post d-flex flex-row align-items-start justify-content-start">
                                         <div>
-                                            <div class="latest_post_image"><img src="images/latest_4.jpg"
+                                            <div class="latest_post_image"><img src="/images/latest_4.jpg"
                                                                                 alt="https://unsplash.com/@juja_han">
                                             </div>
                                         </div>
@@ -614,11 +613,11 @@
                             </a>
                         </div>
                         <div class="footer_nav_container text-center">
-                            <nav class="footer_nav">
+                            <nav class="footer_nav" th:fragment="footer_nav">
                                 <ul class="footer_nav_list d-flex flex-md-row flex-column align-items-center justify-content-start">
                                     <li><a th:href="@{/}">home</a></li>
                                     <th:block th:each="category : ${categories}">
-                                        <li><a th:href="@{#}" th:text="${category.name}"></a></li>
+                                        <li><a th:href="@{/view-category/__${category.id}__}" th:text="${category.name}"></a></li>
                                     </th:block>
                                 </ul>
                             </nav>

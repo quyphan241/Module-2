@@ -29,4 +29,5 @@ public interface PostService {
 
     Iterable<Post> findTop3MostView();
 
+
 }

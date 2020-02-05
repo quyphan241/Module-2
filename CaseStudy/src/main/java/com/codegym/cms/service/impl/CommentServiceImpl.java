@@ -33,4 +33,9 @@ public class CommentServiceImpl implements CommentService {
     public Comment findById(Long id) {
         return commentRepository.findById(id).get();
     }
+
+    @Override
+    public Long countByPost(Post post) {
+        return commentRepository.countAllByPost(post);
+    }
 }

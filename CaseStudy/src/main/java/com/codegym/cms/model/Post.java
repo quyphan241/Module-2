@@ -1,5 +1,9 @@
 package com.codegym.cms.model;
 
+import org.hibernate.annotations.Formula;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
 import java.sql.Date;
 import java.util.Set;
@@ -16,6 +20,7 @@ public class Post {
     private String description;
     @OneToMany(targetEntity = Image.class)
     private Set<Image> images;
+   
 
     @ManyToOne
     @JoinColumn(name="category_id")
@@ -45,8 +50,16 @@ public class Post {
 
     public Post() {
     }
-
-
+//    @Formula("select count(c) from Comment c where c.post_id = id")
+//    Long numberOfComments;
+//
+//    public Long getNumberOfComments() {
+//        return numberOfComments;
+//    }
+//
+//    public void setNumberOfComments(Long numberOfComments) {
+//        this.numberOfComments = numberOfComments;
+//    }
     public String getTittle() {
         return title;
     }
@@ -89,6 +102,10 @@ public class Post {
         this.images = images;
     }
 
+    public String countComment(){
+        return String.valueOf(this.getComments().size());
+    }
+
     public int getCount() {
         return count;
     }
@@ -116,6 +133,7 @@ public class Post {
     public int increment() {
         return this.count++;
     }
+
 
     @Override
     public String toString() {

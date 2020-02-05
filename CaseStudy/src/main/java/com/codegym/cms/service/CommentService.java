@@ -13,4 +13,6 @@ public interface CommentService {
     void remove(Long id);
 
     Comment findById(Long id);
+
+    Long countByPost(Post post);
 }
